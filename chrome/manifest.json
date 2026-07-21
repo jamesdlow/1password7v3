@@ -1,9 +1,9 @@
 {
    "author": "AgileBits",
    "background": {
-      "scripts": [ "ext/sjcl.js", "global.min.js" ]
+      "service_worker": "background-sw.js"
    },
-   "browser_action": {
+   "action": {
       "default_icon": {
          "19": "assets/toolbar.png",
          "38": "assets/toolbar@2x.png"
@@ -28,9 +28,10 @@
    },
    "incognito": "spanning",
    "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCB4Mf0xWDqstptZh7gqocHL+RT36ZJo/iJ0kZmLyC8vxCsGS26Loidt69KPBVlfuBI0FaWL25NVB2sVdj7wNsCvQIn7ImQwSB5Audq2B3uQzk70RA7SmGE9ndIKsKs4L19n8avhg4ohejyBiI5nrUegs94i0tMpFVeedmTOO4+eQIDAQAB",
-   "manifest_version": 2,
+   "manifest_version": 3,
    "name": "__MSG_appName__",
-   "permissions": [ "contextMenus", "nativeMessaging", "storage", "tabs", "webRequest", "webRequestBlocking", "http://*/*", "https://*/*" ],
+   "permissions": [ "contextMenus", "nativeMessaging", "storage", "tabs", "webRequest" ],
+   "host_permissions": [ "http://*/*", "https://*/*" ],
    "short_name": "1Password",
    "update_url": "https://clients2.google.com/service/update2/crx",
    "version": "4.7.5.91"
