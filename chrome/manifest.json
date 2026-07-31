@@ -27,7 +27,7 @@
       "48": "assets/Icon-48.png"
    },
    "incognito": "spanning",
-   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCB4Mf0xWDqstptZh7gqocHL+RT36ZJo/iJ0kZmLyC8vxCsGS26Loidt69KPBVlfuBI0FaWL25NVB2sVdj7wNsCvQIn7ImQwSB5Audq2B3uQzk70RA7SmGE9ndIKsKs4L19n8avhg4ohejyBiI5nrUegs94i0tMpFVeedmTOO4+eQIDAQAB",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA9xgil/eR/2beMmHuD6CVTUnJY9xmORcmJohCKEQpgM9ljnl7IP28SyXlGT0mCApDXewkyCFyjOtWQJcS+ZJ69txTTn31Sm/P8e/LmiWXLPLDIuYzXf8/7xguUymaNHj+4PeSegfwiOmzAFEaBeCiPzwwbesH4pwwQb/KwrcbvaaHbZ92E3ERkJQDB1CH/gwg2/Cb3l0nIf6ijSGHaDUiLbBY4qscO9gMEnwpeX0Fi/iM0CLpcfgJREeYV+GWqZpsautOsDY1BrZWrOY8Fffg5XKIEvnMZOtSBHKfJisgqL7DEAoLdNQ1i07YmEoJjFz61Kx89nMOn+ZTYtuTRtedYQIDAQAB",
    "manifest_version": 3,
    "name": "__MSG_appName__",
    "permissions": [ "contextMenus", "nativeMessaging", "storage", "tabs", "webRequest" ],
