@@ -82,15 +82,15 @@ if [ -z "$SIGNING_PUBLIC_KEY" ]; then
 fi
 
 # Keep manifest key aligned with signing key for deterministic extension IDs.
-awk -v key="$SIGNING_PUBLIC_KEY" '
-{
-	if ($0 ~ /"key"[[:space:]]*:/) {
-		sub(/"key"[[:space:]]*:[[:space:]]*"[^"]*",/, "\"key\": \"" key "\",")
-	}
-	print
-}
-' "$MANIFEST" > "$MANIFEST.tmp"
-mv "$MANIFEST.tmp" "$MANIFEST"
+#awk -v key="$SIGNING_PUBLIC_KEY" '
+#{
+#	if ($0 ~ /"key"[[:space:]]*:/) {
+#		sub(/"key"[[:space:]]*:[[:space:]]*"[^"]*",/, "\"key\": \"" key "\",")
+#	}
+#	print
+#}
+#' "$MANIFEST" > "$MANIFEST.tmp"
+#mv "$MANIFEST.tmp" "$MANIFEST"
 
 cd "$CHROME_DIR"
 zip -r "$ZIP_PATH" . -x "*/.DS_Store" ".claude/*" "*/.claude/*"
